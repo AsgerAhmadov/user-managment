@@ -7,4 +7,6 @@ import java.util.List;
 public interface UserFacade {
 
     List<UserReadResponse> findAll();
+
+    UserReadResponse findByUserId(Long id);
 }
